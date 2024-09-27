@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(11, 26, 143); 
+    
+}
+h1, h2, h3, p{
+    color: white;
+}
+
+ul li {
+    display: inline;
+}
+
+header ul li a{
+    color: white
+}
+
+header ul{
+    
+}
