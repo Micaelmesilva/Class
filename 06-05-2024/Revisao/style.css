@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+header{
+    background: yellow;
+    height: 60px;
+}
+
+main{
+    background-color: blue;
+    height: calc(100vh -60px -60px);
+}
+
+footer{
+    background-color: blueviolet;
+    height: 60px;
+}
+
+p{
+    background-color: rgb(243, 243, 95);
+    width: 50%;
+    margin: 10px;
+}
+
+b{
+    background-color: brown;
+    width: 100px;
+}
