@@ -1,0 +1,30 @@
+/* Resetando margens e preenchimentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+}
+body {
+    display: flex;              /* Define o layout do body como flexbox */
+    justify-content: center;    /* Centraliza o conteúdo horizontalmente */
+    align-items: center;        /* Centraliza o conteúdo verticalmente */
+    height: 100vh;              /* Define a altura do body como a altura da viewport */
+}
+
+
+button {
+    width: 200px;         /* Largura fixa para todos os botões */
+    padding: 10px 20px;   /* Adiciona um pouco de preenchimento ao botão */
+    font-size: 20px;      /* Tamanho da fonte do botão */
+    cursor: pointer;      /* Cursor de ponteiro para indicar que é clicável */
+    background-color: aliceblue;  
+    border-radius: 5px;   /* Bordas arredondadas opcionais */
+    text-align: center;   /* Centraliza o texto dentro do botão */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os botões no meio da tela */
+    margin: 10px; 
+}
+
+

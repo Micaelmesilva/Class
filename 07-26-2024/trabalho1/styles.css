@@ -1,0 +1,25 @@
+body {
+    background-color: #f0f4f8; /* Escolha uma cor bacana em https://colorhunt.co/ */
+    color: #444;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    width: 60%;
+    margin: 0 auto;
+    padding: 2% 0;
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: rgb(140, 76, 8);
+}
+
+section {
+    margin-top: 0px;
+    padding-bottom: 5px;
+    border-top: solid 1px gray;
+}

@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+body {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    background-color: black;
+    color: aliceblue;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.section {
+    flex: 1;
+    border: 2px solid gray; /* Linha cinza ao redor de cada flex */
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0 10px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-center {
+    flex: 2;
+}
+
+#button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button, .button { /* Adiciona estilos a todos os botões e botões com a classe .button */
+    width: 200px;         /* Largura fixa para todos os botões */
+    padding: 5px 10px;   /* Adiciona um pouco de preenchimento ao botão */
+    font-size: 20px;      /* Tamanho da fonte do botão */
+    cursor: pointer;      /* Cursor de ponteiro para indicar que é clicável */
+    background-color: aliceblue; /* Cor de fundo do botão */
+    border: 1px solid #ccc; /* Borda opcional */
+    border-radius: 5px;   /* Bordas arredondadas opcionais */
+    text-align: center;   /* Centraliza o texto dentro do botão */
+    margin: 10px; 
+    transition: all 0.3s ease; /* Suaviza a transição */
+}
+
+button:hover, .button:hover { /* Aplica o efeito hover aos botões */
+    background-color: #000000; /* Nova cor de fundo ao passar o mouse */
+    color: white;             /* Cor do texto ao passar o mouse */
+    transform: scale(1.1);    /* Expande o botão ao passar o mouse */
+}
