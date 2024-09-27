@@ -1,0 +1,66 @@
+cadeoa=string
+inteiro=integer
+real=floot/double
+logico=boolean
+caso queira saber qual o tipo da variavel utilize a função:
+"gettype($nome_da_variavel)"
+
+comandos importantes;
+if (condição) {
+	// código a ser executado se a condição for verdadeira
+} elseif (outra_condição) {
+	// código a ser executado se a primeira condição for falsa
+	e esta for verdadeira
+} else {
+	// código a ser executado se todas as condições anteriores forem falsas
+}
+
+
+$dia = "segunda";
+
+switch ($dia) {
+    case "segunda":
+        echo "Hoje é segunda-feira.";
+        break;
+    case "terça":
+        echo "Hoje é terça-feira.";
+        break;
+    default:
+        echo "Dia não reconhecido.";
+}
+
+
+for ($i = 0; $i < 5; $i++) {
+    echo "O valor de i é: $i<br>";
+}
+
+
+$contador = 0;
+
+while ($contador < 5) {
+    echo "Contagem: $contador<br>";
+    $contador++;
+}
+
+
+$contador = 0;
+
+do {
+    echo "Contagem: $contador<br>";
+    $contador++;
+} while ($contador < 5);
+
+
+
+for ($i = 0; $i < 10; $i++) {
+    if ($i == 5) {
+        continue; // Pula a iteração atual
+    }
+    echo "O valor de i é: $i<br>";
+    if ($i == 7) {
+        break; // Sai do loop
+    }
+}
+
+
+

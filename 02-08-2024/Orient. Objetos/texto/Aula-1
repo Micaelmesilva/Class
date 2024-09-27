@@ -1,0 +1,3 @@
+No PHP, as variáveis são dinâmicas, o que significa que podem armazenar diferentes tipos de dados e seu tipo pode mudar ao longo do tempo. 
+Por exemplo, uma variável pode começar como um número inteiro e depois ser alterada para uma string, ou vice-versa.bash
+
