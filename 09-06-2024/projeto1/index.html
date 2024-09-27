@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: black;
+            color: aliceblue;
+            font-family: 'Lexend', sans-serif;
+            /* Adiciona a fonte Lexend aqui */
+        }
+
+        h1 {
+            font-size: 50px;
+        }
+        .img img{
+            max-width: 100%;
+            min-width: 100%;
+            
+        }
+        div{
+            display: none;
+        }
+
+        @media (min-width:767px) {
+            body {
+                background-color: blue;
+            }
+
+            .img-big{
+                display: block;
+            }
+        }
+
+        @media (max-width:767px) {
+            body {
+                background-color: rebeccapurple;
+            }
+
+           
+
+            .img-small{
+                display: block;
+            }
+        }
+    </style>
+    <title>Media Query</title>
+</head>
+
+<body>
+    <h1>Media Queries</h1>
+    <div class="img img-big">
+        <img src="https://imageplaceholder.net/1000x400" alt="">
+    </div>
+
+    <div class="img img-small">
+        <img src="https://imageplaceholder.net/500x200" alt="">
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat iure, voluptatibus ipsam voluptatem ratione,
+        vitae ad assumenda asperiores culpa aspernatur nesciunt eos facere ipsa ut! Accusamus deleniti libero dolore
+        natus!</p>
+</body>
+
+</html>
