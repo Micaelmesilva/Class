@@ -1,0 +1,23 @@
+.menu {
+    height: 100px;
+    background-color: black;
+}
+
+.sidebar {
+    width: 200px;
+    float: left;
+    height: 300px;
+    background-color: aquamarine;
+}
+
+.content {
+    width: 600px;
+    height: 500px;
+    background-color: yellow;
+
+}
+
+.footer {
+    height: 200px;
+    background-color: darkred;
+}
